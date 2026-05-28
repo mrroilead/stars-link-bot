@@ -1,5 +1,4 @@
 import asyncio
-
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
@@ -8,38 +7,27 @@ from aiogram_i18n import I18nMiddleware
 from aiogram_i18n.cores.fluent_compile_core import FluentCompileCore
 
 from bot.commands import (
-    balance_router,
-    media_router,
     payment_router,
-    refund_router,
     start_router,
 )
 from bot.core import config, logger, setup_logging
 
-
 async def set_bot_commands(bot: Bot) -> None:
     commands: list[BotCommand] = [
-        BotCommand(command="start", description="Show integration overview"),
-        BotCommand(command="pay", description="Create a Stars invoice"),
-        BotCommand(command="refund", description="Refund a Star payment"),
-        BotCommand(command="balance", description="Show Stars balance"),
-        BotCommand(command="media", description="Send paid media"),
+        BotCommand(command="start", description="Start shopping for prompts"),
     ]
     await bot.set_my_commands(commands)
-
 
 async def setup_i18n() -> I18nMiddleware:
     i18n_core: FluentCompileCore = FluentCompileCore(path="locales/{locale}")
     await i18n_core.startup()
     return I18nMiddleware(core=i18n_core, default_locale="en")
 
-
 def setup_middlewares(dp: Dispatcher, i18n: I18nMiddleware) -> None:
     dp.update.middleware(i18n)
     dp.message.middleware(i18n)
     dp.callback_query.middleware(i18n)
     i18n.setup(dispatcher=dp)
-
 
 async def main() -> None:
     setup_logging()
@@ -57,12 +45,10 @@ async def main() -> None:
     i18n = await setup_i18n()
 
     dp = Dispatcher()
+    # Register only necessary routers for MVP
     for router in [
         start_router,
         payment_router,
-        balance_router,
-        refund_router,
-        media_router,
     ]:
         dp.include_router(router)
 
@@ -79,7 +65,6 @@ async def main() -> None:
     finally:
         await i18n.core.shutdown()
         await bot.session.close()
-
 
 if __name__ == "__main__":
     try:
