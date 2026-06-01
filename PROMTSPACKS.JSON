@@ -1,0 +1,516 @@
+{
+  "products": [
+    {
+      "id": "starter-creator-pack",
+      "price_stars": 99,
+      "base_price_stars": 132,
+      "discount_percent": 25,
+      "slug": "starter-creator-pack",
+      "prompts_count": 10,
+      "titles": {
+        "en": "Starter Creator Pack (10 Essential Prompts)",
+        "ru": "Стартовый пакет креатора (10 основных промптов)"
+      },
+      "descriptions": {
+        "en": "10 ready-to-use prompts to quickly launch your Telegram AI assistant and basic content flows.",
+        "ru": "10 готовых промптов, чтобы быстро запустить Telegram‑ассистента и базовые контент‑флоу."
+      },
+      "details": {
+        "en": [
+          "Profile onboarding prompt for new subscribers.",
+          "Welcome message + lead capture for channels.",
+          "Basic FAQ bot for your product or service.",
+          "Prompt for short promo posts (tweets-style).",
+          "Prompt for long-form posts up to 1,000 words.",
+          "Prompt for generating catchy headlines.",
+          "Prompt for rewriting text in your brand voice.",
+          "Prompt for summarizing long messages for Telegram.",
+          "Prompt for idea generation for daily posts.",
+          "Prompt for simple broadcast message drafting."
+        ],
+        "ru": [
+          "Промпт онбординга подписчика в личке.",
+          "Приветственное сообщение + сбор лида для каналов.",
+          "Базовый FAQ‑бот по вашему продукту или услуге.",
+          "Промпт для коротких промо‑постов в стиле твитов.",
+          "Промпт для лонгридов до 1 000 слов.",
+          "Промпт для генерации цепляющих заголовков.",
+          "Промпт для перезаписи текста в вашем тоне бренда.",
+          "Промпт для саммари длинных сообщений для Telegram.",
+          "Промпт для генерации идей ежедневных постов.",
+          "Промпт для простой рассылки по базе."
+        ]
+      },
+      "language_support": ["en", "ru"],
+      "is_best_value": false
+    },
+    {
+      "id": "creator-growth-pack",
+      "price_stars": 199,
+      "base_price_stars": 298,
+      "discount_percent": 33,
+      "slug": "creator-growth-pack",
+      "prompts_count": 12,
+      "titles": {
+        "en": "Creator Growth Pack (12 Audience Boost Prompts)",
+        "ru": "Пакет роста креатора (12 промптов для аудитории)"
+      },
+      "descriptions": {
+        "en": "Audience growth prompts inspired by top Telegram marketing bots: hooks, virality, and shareable content.",
+        "ru": "Промпты роста аудитории по мотивам топовых Telegram‑ботов: крючки, вирусность и шарибельный контент."
+      },
+      "details": {
+        "en": [
+          "Hook generator for channel posts.",
+          "Prompt for viral carousels and threads.",
+          "Prompt for Telegram-friendly memes descriptions.",
+          "Prompt for engagement questions and polls.",
+          "Prompt for A/B testing two post variants.",
+          "Prompt for CTAs that drive shares.",
+          "Prompt for referral campaign copy.",
+          "Prompt for welcome DM after subscribe.",
+          "Prompt for reactivation of cold subscribers.",
+          "Prompt for contest / giveaway copy.",
+          "Prompt for collaboration outreach messages.",
+          "Prompt for cross-promo post templates."
+        ],
+        "ru": [
+          "Генератор крючков для постов в канале.",
+          "Промпт для вирусных каруселей и тредов.",
+          "Промпт для описаний мемов под Telegram.",
+          "Промпт для вовлекающих вопросов и опросов.",
+          "Промпт для A/B‑теста двух вариантов поста.",
+          "Промпт для CTA, которые стимулируют репосты.",
+          "Промпт для текста реферальной кампании.",
+          "Промпт для приветственного ЛС после подписки.",
+          "Промпт для реактивации «остывших» подписчиков.",
+          "Промпт для текста конкурсов и розыгрышей.",
+          "Промпт для сообщений о коллаборациях.",
+          "Промпт для шаблонов кросс‑промо постов."
+        ]
+      },
+      "language_support": ["en", "ru"],
+      "is_best_value": false
+    },
+    {
+      "id": "sales-funnel-pack",
+      "price_stars": 299,
+      "base_price_stars": 465,
+      "discount_percent": 36,
+      "slug": "sales-funnel-pack",
+      "prompts_count": 12,
+      "titles": {
+        "en": "Sales Funnel Pack (12 Conversion Prompts)",
+        "ru": "Пакет воронок продаж (12 конверсионных промптов)"
+      },
+      "descriptions": {
+        "en": "12 prompts to build Telegram-native funnels: from first touch to Stars payment.",
+        "ru": "12 промптов для Telegram‑воронок: от первого касания до оплаты Stars."
+      },
+      "details": {
+        "en": [
+          "Prompt to qualify a lead in chat.",
+          "Prompt to segment users by intent and budget.",
+          "Prompt for short product pitch in 3 variants.",
+          "Prompt for storytelling product explanation.",
+          "Prompt for overcoming 5 typical objections.",
+          "Prompt for upsell after main purchase.",
+          "Prompt for downsell to cheaper product.",
+          "Prompt for cross-sell related products.",
+          "Prompt for order summary before payment.",
+          "Prompt for reassurance before checkout.",
+          "Prompt for post-purchase thank-you flow.",
+          "Prompt for asking testimonials and reviews."
+        ],
+        "ru": [
+          "Промпт квалификации лида в чате.",
+          "Промпт сегментации по намерению и бюджету.",
+          "Промпт короткого питча продукта в 3 вариантах.",
+          "Промпт сторителлинга, объясняющий продукт.",
+          "Промпт отработки 5 типовых возражений.",
+          "Промпт апсейла после основной покупки.",
+          "Промпт даунсейла на более дешевый продукт.",
+          "Промпт кросс‑продажи сопутствующих продуктов.",
+          "Промпт итогового резюме заказа до оплаты.",
+          "Промпт успокоения перед оплатой.",
+          "Промпт благодарности после покупки.",
+          "Промпт запроса отзывов и кейсов."
+        ]
+      },
+      "language_support": ["en", "ru"],
+      "is_best_value": false
+    },
+    {
+      "id": "content-machine-pack",
+      "price_stars": 399,
+      "base_price_stars": 665,
+      "discount_percent": 40,
+      "slug": "content-machine-pack",
+      "prompts_count": 15,
+      "titles": {
+        "en": "Content Machine Pack (15 Daily Content Prompts)",
+        "ru": "Контент‑машина (15 промптов для ежедневного контента)"
+      },
+      "descriptions": {
+        "en": "15 prompts to turn your Telegram into a non-stop content machine for education, sales, and community.",
+        "ru": "15 промптов, чтобы превратить ваш Telegram в контент‑машину для обучения, продаж и комьюнити."
+      },
+      "details": {
+        "en": [
+          "Prompt for daily educational mini-lesson.",
+          "Prompt for case study breakdown.",
+          "Prompt for myth-busting post.",
+          "Prompt for personal story with lesson.",
+          "Prompt for checklist-style content.",
+          "Prompt for before/after transformation story.",
+          "Prompt for FAQ compilation post.",
+          "Prompt for resource / tools list.",
+          "Prompt for unpopular opinion post.",
+          "Prompt for Q&A session structure.",
+          "Prompt for weekly digest / summary.",
+          "Prompt for storytelling with cliffhanger.",
+          "Prompt for controversial but ethical hot takes.",
+          "Prompt for community challenge announcement.",
+          "Prompt for UGC / subscriber story format."
+        ],
+        "ru": [
+          "Промпт ежедневного образовательного мини‑урока.",
+          "Промпт разбора кейса по шагам.",
+          "Промпт поста «разрушение мифов».",
+          "Промпт личной истории с выводом.",
+          "Промпт контента в формате чек‑листа.",
+          "Промпт истории трансформации «до/после».",
+          "Промпт поста с подборкой FAQ.",
+          "Промпт поста со списком ресурсов и тулов.",
+          "Промпт поста с непопулярным мнением.",
+          "Промпт структуры для Q&A‑сессии.",
+          "Промпт еженедельного дайджеста.",
+          "Промпт сторителлинга с клиффхэнгером.",
+          "Промпт этичных «острых» мнений.",
+          "Промпт анонса комьюнити‑челленджа.",
+          "Промпт формата истории подписчика / UGC."
+        ]
+      },
+      "language_support": ["en", "ru"],
+      "is_best_value": false
+    },
+    {
+      "id": "premium-brand-pack",
+      "price_stars": 499,
+      "base_price_stars": 915,
+      "discount_percent": 45,
+      "slug": "premium-brand-pack",
+      "prompts_count": 15,
+      "titles": {
+        "en": "Premium Brand Pack (15 Authority Prompts)",
+        "ru": "Премиальный бренд‑пак (15 промптов для экспертизы)"
+      },
+      "descriptions": {
+        "en": "Authority-building prompts used by top creators to position themselves as experts and close high-ticket deals.",
+        "ru": "Промпты для прокачки экспертности и доверия, чтобы закрывать дорогие чеки как топ‑креаторы."
+      },
+      "details": {
+        "en": [
+          "Prompt for expert manifesto post.",
+          "Prompt for breaking down industry trends.",
+          "Prompt for answering hate/criticism professionally.",
+          "Prompt for comparison vs competitors without toxicity.",
+          "Prompt for thought leadership essays.",
+          "Prompt for live-AMA announcement and recap.",
+          "Prompt for \"behind the scenes\" storytelling.",
+          "Prompt for outlining your unique methodology.",
+          "Prompt for long-form educational threads.",
+          "Prompt for value ladder explanation.",
+          "Prompt for client-selection criteria post.",
+          "Prompt for building scarcity and demand ethically.",
+          "Prompt for event / webinar promo flow.",
+          "Prompt for partnership / sponsor pitch.",
+          "Prompt for press / media outreach draft."
+        ],
+        "ru": [
+          "Промпт манифеста эксперта.",
+          "Промпт разбора трендов в нише.",
+          "Промпт ответа на хейт и критику по‑взрослому.",
+          "Промпт сравнения с конкурентами без токсичности.",
+          "Промпт экспертных эссе.",
+          "Промпт анонса и разбора итогов прямого эфира.",
+          "Промпт сторителлинга «закулисье работы».",
+          "Промпт описания вашей уникальной методологии.",
+          "Промпт длинных обучающих тредов.",
+          "Промпт объяснения лестницы ценности.",
+          "Промпт поста о критериях отбора клиентов.",
+          "Промпт этичного дефицита и создания спроса.",
+          "Промпт промо вебинара или интенсива.",
+          "Промпт питча партнёрам / спонсорам.",
+          "Промпт черновика для прессы и медиа."
+        ]
+      },
+      "language_support": ["en", "ru"],
+      "is_best_value": true
+    },
+    {
+      "id": "launch-hyper-pack",
+      "price_stars": 599,
+      "base_price_stars": 1198,
+      "discount_percent": 50,
+      "slug": "launch-hyper-pack",
+      "prompts_count": 12,
+      "titles": {
+        "en": "Launch Hyper Pack (12 Launch Prompts)",
+        "ru": "Гипер‑запуск (12 промптов для запусков)"
+      },
+      "descriptions": {
+        "en": "Launch prompts for products, courses, and paid channels with Telegram-native sequences.",
+        "ru": "Промпты запусков продуктов, курсов и платных каналов в формате нативных Telegram‑цепочек."
+      },
+      "details": {
+        "en": [
+          "Prompt for pre-launch warm-up sequence.",
+          "Prompt for launch announcement day 1.",
+          "Prompt for launch announcement day 2 (social proof).",
+          "Prompt for cart-open notification flow.",
+          "Prompt for FAQ + objection handling broadcast.",
+          "Prompt for \"last 24 hours\" urgency message.",
+          "Prompt for \"last 6 hours\" final call.",
+          "Prompt for waitlist + standby sequence.",
+          "Prompt for \"sold out\" or closed doors update.",
+          "Prompt for post-launch survey and feedback.",
+          "Prompt for turning feedback into testimonials.",
+          "Prompt for re-launch / encore campaign."
+        ],
+        "ru": [
+          "Промпт прогревной цепочки до запуска.",
+          "Промпт анонса запуска, день 1.",
+          "Промпт анонса запуска, день 2 (соцдоказательства).",
+          "Промпт уведомлений об открытии продаж.",
+          "Промпт массовой рассылки FAQ + возражения.",
+          "Промпт сообщения «осталось 24 часа».",
+          "Промпт сообщения «осталось 6 часов».",
+          "Промпт вейтлиста и режима ожидания.",
+          "Промпт сообщения о стоп‑продажах.",
+          "Промпт опроса и сбора обратной связи.",
+          "Промпт превращения фидбэка в кейсы.",
+          "Промпт для повторного запуска / энкора."
+        ]
+      },
+      "language_support": ["en", "ru"],
+      "is_best_value": false
+    },
+    {
+      "id": "support-automation-pack",
+      "price_stars": 699,
+      "base_price_stars": 1520,
+      "discount_percent": 54,
+      "slug": "support-automation-pack",
+      "prompts_count": 12,
+      "titles": {
+        "en": "Support Automation Pack (12 Service Prompts)",
+        "ru": "Автоматизация поддержки (12 сервисных промптов)"
+      },
+      "descriptions": {
+        "en": "Prompts for semi-automated customer support inside Telegram chats and groups.",
+        "ru": "Промпты полуавтоматической поддержки клиентов прямо в Telegram‑чатах и группах."
+      },
+      "details": {
+        "en": [
+          "Prompt for support triage assistant.",
+          "Prompt for knowledge base search answers.",
+          "Prompt for refund / guarantee policy explanation.",
+          "Prompt for upsell during support interaction.",
+          "Prompt for tone-controlled responses (calm, friendly).",
+          "Prompt for dealing with angry customers.",
+          "Prompt for handling \"where is my order\" questions.",
+          "Prompt for group moderation assistant.",
+          "Prompt for spam and self-promo filtering messages.",
+          "Prompt for escalation to human operator.",
+          "Prompt for post-support satisfaction survey.",
+          "Prompt for tagging and segmenting support tickets."
+        ],
+        "ru": [
+          "Промпт ассистента‑триажа обращений.",
+          "Промпт ответов на основе базы знаний.",
+          "Промпт объяснения возвратов и гарантий.",
+          "Промпт мягкого апсейла в диалоге поддержки.",
+          "Промпт ответов в нужном тоне (спокойно, дружелюбно).",
+          "Промпт работы с недовольными клиентами.",
+          "Промпт для ответов на «где мой заказ?».",
+          "Промпт модерации чата / группы.",
+          "Промпт сообщений против спама и самопиара.",
+          "Промпт эскалации к живому оператору.",
+          "Промпт опроса удовлетворенности поддержкой.",
+          "Промпт тегирования и сегментации тикетов."
+        ]
+      },
+      "language_support": ["en", "ru"],
+      "is_best_value": false
+    },
+    {
+      "id": "agency-ops-pack",
+      "price_stars": 799,
+      "base_price_stars": 1998,
+      "discount_percent": 60,
+      "slug": "agency-ops-pack",
+      "prompts_count": 12,
+      "titles": {
+        "en": "Agency Ops Pack (12 Agency Prompts)",
+        "ru": "Агентский пакет (12 промптов для агентств)"
+      },
+      "descriptions": {
+        "en": "Prompts for agencies that manage multiple Telegram channels, clients, and paid bots.",
+        "ru": "Промпты для агентств, ведущих несколько каналов, клиентов и платных ботов в Telegram."
+      },
+      "details": {
+        "en": [
+          "Prompt for client intake questionnaire.",
+          "Prompt for briefing document generator.",
+          "Prompt for monthly content plan per client.",
+          "Prompt for performance report summary.",
+          "Prompt for client-facing report narrative.",
+          "Prompt for renewal / retainer pitch.",
+          "Prompt for scope-change communication.",
+          "Prompt for drafting SOW and simple contracts.",
+          "Prompt for task breakdown for team.",
+          "Prompt for internal SOP documentation drafts.",
+          "Prompt for onboarding new team member.",
+          "Prompt for cross-client case studies."
+        ],
+        "ru": [
+          "Промпт анкеты первичного брифа клиента.",
+          "Промпт генерации бриф‑документа.",
+          "Промпт месячного контент‑плана по клиенту.",
+          "Промпт саммари отчёта по результатам.",
+          "Промпт клиентской версии отчёта.",
+          "Промпт предложения продления / ретейнера.",
+          "Промпт коммуникации изменения объёма работ.",
+          "Промпт черновиков SOW и простых договоров.",
+          "Промпт декомпозиции задач по команде.",
+          "Промпт черновиков SOP и регламентов.",
+          "Промпт онбординга нового сотрудника.",
+          "Промпт кросс‑кейс‑стади между клиентами."
+        ]
+      },
+      "language_support": ["en", "ru"],
+      "is_best_value": false
+    },
+    {
+      "id": "ultimate-stars-monetization-pack",
+      "price_stars": 899,
+      "base_price_stars": 2870,
+      "discount_percent": 69,
+      "slug": "ultimate-stars-monetization-pack",
+      "prompts_count": 15,
+      "titles": {
+        "en": "Ultimate Stars Monetization Pack (15 Revenue Prompts)",
+        "ru": "Ультимативный Stars‑пак монетизации (15 промптов)"
+      },
+      "descriptions": {
+        "en": "Advanced prompts for selling digital products, memberships, and access via Telegram Stars.",
+        "ru": "Продвинутые промпты для продажи цифровых продуктов, подписок и доступов через Telegram Stars."
+      },
+      "details": {
+        "en": [
+          "Prompt for paywalled content teaser.",
+          "Prompt for pack description optimized for Stars payment flow.",
+          "Prompt for pricing experiments and justification.",
+          "Prompt for bundle and tiered offer descriptions.",
+          "Prompt for recurring membership pitch.",
+          "Prompt for VIP chat or mastermind offer.",
+          "Prompt for pay-per-message consulting structure.",
+          "Prompt for micro-products (checklists, mini-guides).",
+          "Prompt for upsell chain of 2–3 Stars offers.",
+          "Prompt for post-purchase cross-sell sequence.",
+          "Prompt for seasonal / holiday campaign templates.",
+          "Prompt for Black Friday / big sale flows.",
+          "Prompt for localization guidelines for new languages.",
+          "Prompt for reactivation of past buyers.",
+          "Prompt for affiliate / partner sales scripts."
+        ],
+        "ru": [
+          "Промпт тизера платного контента.",
+          "Промпт описания паков, заточенный под оплату Stars.",
+          "Промпт экспериментов с ценами и их обоснованием.",
+          "Промпт описания бандлов и тарифных пакетов.",
+          "Промпт питча подписочной модели.",
+          "Промпт оффера VIP‑чата или мастермайнда.",
+          "Промпт структуры консультаций за сообщение.",
+          "Промпт микро‑продуктов (чек‑листы, мини‑гайды).",
+          "Промпт цепочки из 2–3 Stars‑офферов.",
+          "Промпт пост‑покупочной кросс‑продажи.",
+          "Промпт сезонных и праздничных кампаний.",
+          "Промпт больших распродаж / Black Friday.",
+          "Промпт гайдов по локализации на новые языки.",
+          "Промпт реактивации прошлых покупателей.",
+          "Промпт скриптов партнёрских продаж."
+        ]
+      },
+      "language_support": ["en", "ru"],
+      "is_best_value": false
+    },
+    {
+      "id": "agency-master-bundle",
+      "price_stars": 999,
+      "base_price_stars": 3996,
+      "discount_percent": 75,
+      "slug": "agency-master-bundle",
+      "prompts_count": 20,
+      "titles": {
+        "en": "Agency Master Bundle (20 Pro Prompts)",
+        "ru": "Мастер‑бандл агентства (20 про‑промптов)"
+      },
+      "descriptions": {
+        "en": "Flagship bundle combining the best prompts from all packs plus agency-only templates.",
+        "ru": "Флагманский бандл: лучшее из всех паков + эксклюзивные шаблоны для агентств."
+      },
+      "details": {
+        "en": [
+          "Prompt for full-funnel strategy per client.",
+          "Prompt for quarterly growth roadmap.",
+          "Prompt for risk analysis and mitigation plan.",
+          "Prompt for pricing strategy per offer.",
+          "Prompt for team roles and responsibilities mapping.",
+          "Prompt for client onboarding sequence in Telegram.",
+          "Prompt for detailed launch calendar.",
+          "Prompt for crisis communication playbook.",
+          "Prompt for brand voice guideline generator.",
+          "Prompt for multi-channel campaign architecture.",
+          "Prompt for end-to-end analytics questions.",
+          "Prompt for revenue forecast scenarios.",
+          "Prompt for investor / partner pitch deck narrative.",
+          "Prompt for big product announcement script.",
+          "Prompt for multi-language roll-out plan.",
+          "Prompt for community-building strategy.",
+          "Prompt for educational product roadmap.",
+          "Prompt for cross‑platform repurposing plan.",
+          "Prompt for hiring brief for key roles.",
+          "Prompt for monthly optimization checklist."
+        ],
+        "ru": [
+          "Промпт стратегии воронки под клиента.",
+          "Промпт квартальной дорожной карты роста.",
+          "Промпт анализа рисков и плана их снижения.",
+          "Промпт ценовой стратегии по офферам.",
+          "Промпт карты ролей и зон ответственности команды.",
+          "Промпт онбординга клиента в Telegram.",
+          "Промпт детального календаря запусков.",
+          "Промпт плейбука антикризисных коммуникаций.",
+          "Промпт генерации гайда по тону бренда.",
+          "Промпт архитектуры мультиканальной кампании.",
+          "Промпт вопросов для сквозной аналитики.",
+          "Промпт сценариев прогноза выручки.",
+          "Промпт нарратива для питч‑дека инвесторам.",
+          "Промпт сценария большого продуктового анонса.",
+          "Промпт плана запуска на нескольких языках.",
+          "Промпт стратегии построения комьюнити.",
+          "Промпт дорожной карты образовательных продуктов.",
+          "Промпт плана репурпоза контента по платформам.",
+          "Промпт брифа на найм ключевых ролей.",
+          "Промпт ежемесячного чек‑листа оптимизации."
+        ]
+      },
+      "language_support": ["en", "ru"],
+      "is_best_value": false
+    }
+  ],
+  "default_language": "en",
+  "available_languages": ["en", "ru"]
+}
