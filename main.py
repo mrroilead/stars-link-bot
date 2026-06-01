@@ -1,3 +1,4 @@
+# Redeploy triggered for new catalog
 import asyncio
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
@@ -31,6 +32,8 @@ def setup_middlewares(dp: Dispatcher, i18n: I18nMiddleware) -> None:
 
 async def main() -> None:
     setup_logging()
+    from bot.core import config
+    logger.info(f"STARTUP: Loaded {len(config.PRODUCTS)} products")
 
     bot = Bot(
         token=config.BOT_TOKEN,
